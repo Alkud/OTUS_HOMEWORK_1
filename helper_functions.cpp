@@ -4,5 +4,5 @@
 
 int getVersion()
 {
-  return OTUS_HW_1_VERSION_TWEAK;
+  return OTUS_HW_1_VERSION_PATCH;
 }

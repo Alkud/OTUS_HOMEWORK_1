@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 3.2)
 
 #Set project name, set PROJECT_VERSION_MINOR value equal to TRAVIS_BUILD NUMBER
-project(helloworld VERSION 0.0.0.$ENV{TRAVIS_BUILD_NUMBER})
+project(helloworld VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 set (BOOST_MIN_VERSION "1.54.0")
 #set (BOOST_LIBRARYDIR "/usr/lib/x86_64-linux-gnu")
