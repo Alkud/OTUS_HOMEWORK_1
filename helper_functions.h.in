@@ -1,0 +1,9 @@
+// helper_function.h in OTUS Homework #1
+// getVersion() function
+
+#pragma once
+
+// OTUS_HW_1_VERSION_MINOR value is set by CMake while being built by Travis CI
+#define OTUS_HW_1_VERSION_TWEAK @PROJECT_VERSION_TWEAK@
+
+int getVersion();
