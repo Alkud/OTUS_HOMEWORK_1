@@ -5,6 +5,7 @@ notifications:
   email: false
 before_script:
 - sudo apt-get install libboost-test-dev -y
+- sudo apt-get install -qq g++-6
 - echo "deb http://archive.ubuntu.com/ubuntu xenial main universe" | sudo tee -a /etc/apt/source.list
 script:
 - cmake .
