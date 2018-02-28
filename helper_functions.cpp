@@ -2,7 +2,9 @@
 
 #include "helper_functions.h"
 
-int getVersion()
+void getVersion(int& versionMajor, int& versionMinor, int versionPatch)
 {
-  return OTUS_HW_1_VERSION_PATCH;
+  versionMajor = OTUS_HW_1_VERSION_MAJOR;
+  versionMinor = OTUS_HW_1_VERSION_MINOR;
+  versionPatch = OTUS_HW_1_VERSION_PATCH;
 }

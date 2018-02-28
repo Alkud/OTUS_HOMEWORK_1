@@ -9,6 +9,10 @@
 BOOST_AUTO_TEST_SUITE(homework_1_test);
 
 BOOST_AUTO_TEST_CASE(is_version_set)
-{ BOOST_CHECK(getVersion() > 0 ); }
+{
+  int major{}, minor{}, patch{};
+  getVersion(major, minor, patch);
+  BOOST_CHECK(patch > 0 );
+}
 
 BOOST_AUTO_TEST_SUITE_END()
