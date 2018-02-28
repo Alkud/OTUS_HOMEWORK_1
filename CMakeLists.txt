@@ -52,7 +52,7 @@ target_link_libraries(otus_hw_1_test
 
 install(TARGETS helloworld RUNTIME DESTINATION bin)
 
-mesage("${PROJECT_NAME} build ${PROJECT_VERSION}")
+message("${PROJECT_NAME} build ${PROJECT_VERSION}")
 
 set(CPACK_GENERATOR DEB)
 
